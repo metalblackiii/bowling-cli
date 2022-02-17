@@ -1,0 +1,42 @@
+{
+  "name": "@metalblack/bowling-cli",
+  "version": "0.0.1",
+  "description": "cli for the @metalblack/bowling-lib package",
+  "main": "dist/index.js",
+  "bin": {
+    "bowling": "dist/index.js"
+  },
+
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist node_modules",
+    "predev": "npm run build",
+    "dev": "ts-node dist/index.js",
+    "local:install": "npm i -g . && echo 'bowling command installed'",
+    "local:uninstall": "npm uninstall -g @metalblack/bowling-cli",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint-fix": "eslint --fix . --ext .js,.jsx,.ts,.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metalblackiii/bowling-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metalblackiii/bowling-cli/issues"
+  },
+  "homepage": "https://github.com/metalblackiii/bowling-cli#readme",
+  "dependencies": {
+    "@metalblack/bowling-lib": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
