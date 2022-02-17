@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/metalblackiii/bowling-cli#readme",
   "dependencies": {
-    "@metalblack/bowling-lib": "^0.0.1"
+    "@metalblack/bowling-lib": "^0.0.2"
   },
   "devDependencies": {
     "@types/node": "^17.0.18",
