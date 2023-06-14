@@ -1,6 +1,6 @@
 {
   "name": "@metalblack/bowling-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cli for the @metalblack/bowling-lib package",
   "main": "dist/index.js",
   "bin": {
@@ -29,14 +29,14 @@
   },
   "homepage": "https://github.com/metalblackiii/bowling-cli#readme",
   "dependencies": {
-    "@metalblack/bowling-lib": "^0.0.2"
+    "@metalblack/bowling-lib": "^0.0.3"
   },
   "devDependencies": {
-    "@types/node": "^17.0.18",
-    "@typescript-eslint/eslint-plugin": "^5.12.0",
-    "@typescript-eslint/parser": "^5.12.0",
-    "eslint": "^8.9.0",
-    "ts-node": "^10.5.0",
-    "typescript": "^4.5.5"
+    "@types/node": "^20.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "@typescript-eslint/parser": "^5.59.11",
+    "eslint": "^8.42.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
   }
 }
